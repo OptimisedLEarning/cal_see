@@ -93,11 +93,7 @@ function operate( fir_var, operator ,sec_var){
       for ( let i = 0; i < operator.length; i++) {
           operator[i].addEventListener  ("click",function ()
           {       
-            
-            if (screen.value !== "0") {
-                input_number = parseFloat(screen.value);
-            }
-               operatorClicked =true;
+             operatorClicked =true;
 
                 theOperator =  this.textContent;
                 
