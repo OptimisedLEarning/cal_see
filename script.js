@@ -135,6 +135,7 @@ function operate( fir_var, operator ,sec_var){
     const equal = document.querySelector(".equals");
         equal.addEventListener("click", function(){
                  let result = operate(first_num,theOperator,second_num);
+                 result = Math.round(result * 100) / 1000;
                 screen.value = result
                 // result for future calculations
                 
